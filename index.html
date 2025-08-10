@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>RAAG</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">RAAG: Ratio Aware Adaptive Guidance</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://github.com/zhushangwen" target="_blank">Shangwen Zhu</a><sup>1*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://github.com/xiaomomy" target="_blank">Qianyu Peng</a><sup>1*</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yuting Hu</a><sup>1</sup>,</span>
+                    <span class="author-block">
+                        <a href="4 AUTHOR PERSONAL LINK" target="_blank">Zhantao Yang</a><sup>1</sup>,</span>
+                        <span class="author-block">
+                           <a href="4 AUTHOR PERSONAL LINK" target="_blank">Han Zhang</a><sup>1</sup>,</span>
+                           <span class="author-block">
+                             <a href="5 AUTHOR PERSONAL LINK" target="_blank">Zhao Pu</a><sup>1</sup>,</span>
+                             <span class="author-block">
+                              <a href="5 AUTHOR PERSONAL LINK" target="_blank">Ruili Feng</a><sup>2</sup>,</span>
+                              <span class="author-block">
+                                <a href="5 AUTHOR PERSONAL LINK" target="_blank">Fan Cheng</a><sup>1†</sup></span>
+
+                             
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <sup>1</sup>Shanghai Jiao Tong University<br>
+                      <sup>2</sup>University of Waterloo<br>
+                    </span>
+                    <div style="text-align: center; margin-top: 1em;">2025</div>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="corr-author"><small><br><sup>†</sup>Corresponding Author</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/abs/2508.03442" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <!-- <span class="link-block">
+                    <a href="https://github.com/zhushangwen/LTC-Accel" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/2508.03442" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+
+              <!-- <span class="link-block">
+                <a href="https://colab.research.google.com/drive/1h0SM3dp7oUzjBdahmwEcJn9RCq2gryD1#scrollTo=q7u54mHpyU4T" 
+                  target="_blank"
+                  class="external-link button is-normal is-rounded"
+                  style="background-color: black; color: white; border-color: #F9AB00;">
+                  <span class="icon">
+                    <i class="fas fa-code"></i>  -->
+                  <!-- </span>
+                  <span>Colab</span>
+                  <span class="icon" style="margin-left: 5px;">
+                    <img src="https://colab.research.google.com/img/colab_favicon.ico" 
+                        alt="Colab" 
+                        style="height: 1em; vertical-align: middle;"> 官方Colab图标
+                  </span> -->
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel">
+        
+        <!-- 第一行6张图 - 缩小横向间距 -->
+        <div class="columns is-centered is-gapless" style="margin-bottom: 0.5em;">  <!-- 缩小行间距 -->
+          <div class="column is-one-sixth" style="padding: 0.1rem;">  <!-- 缩小列间距 -->
+            <center>
+              <img src="static/images/sd35/org10/0.png" alt="Image 1"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/sd35/org30/0.png" alt="Image 2"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/sd35/ours10/0.png" alt="Image 3"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/sd35/org10/34.png" alt="Image 4"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/sd35/org30/34.png" alt="Image 5"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/sd35/ours10/34.png" alt="Image 6"/>
+            </center>
+          </div>
+        </div>
+
+        <!-- 第二行6张图 - 缩小横向间距 -->
+        <div class="columns is-centered is-gapless" style="margin-bottom: 0.5em;">  <!-- 缩小行间距 -->
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/lumina/org10/21.png" alt="Image 7"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/lumina/org30/21.png" alt="Image 8"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/lumina/ours10/21.png" alt="Image 9"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/lumina/org10/30.png" alt="Image 10"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/lumina/org30/30.png" alt="Image 11"/>
+            </center>
+          </div>
+          <div class="column is-one-sixth" style="padding: 0.1rem;">
+            <center>
+              <img src="static/images/lumina/ours10/30.png" alt="Image 12"/>
+            </center>
+          </div>
+        </div>
+
+        <h2 class="subtitle is-6 has-text-centered" style="margin-top: 1em; color: gray; font-size: medium;">
+             Results on Stable Diffusion v3.5 (upper) and Lumina-Next (lower). Left: Baseline with 10 steps. Middle: Baseline with 30 steps. Right: RAAG with 10 steps.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      
+      <!-- 第一行：两个 GIF -->
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="item">
+            <center>
+              <img src="static/images/org10.gif" alt="GIF 1"/>
+            </center>
+          </div>
+        </div>
+        
+        <div class="column is-half">
+          <div class="item">
+            <center>
+              <img src="static/images/org.gif" alt="GIF 2"/>
+            </center>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 第二行：两个 GIF -->
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="item">
+            <center>
+              <img src="static/images/next10.gif" alt="GIF 3"/>
+            </center>
+          </div>
+        </div>
+        
+        <div class="column is-half">
+          <div class="item">
+            <center>
+              <img src="static/images/rg.gif" alt="GIF 4"/>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="subtitle is-6 has-text-centered" style="margin-top: 1em; color: gray; font-size: medium;">
+           Results comparison: WAN2.1-14B (left) vs WAN2.1-1.4B (right). Top row: original videos; Bottom row: RAAG-processed.  
+      </h2>
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/images/example.png"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        LTC-Accel is a training-free acceleration method by identifying Local Local Transition Coherence and approximating
+        certain steps to reduce redundant computations. 
+        It is both efficient and widely compatible with various models and schedulers. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Flow-based generative models have recently achieved remarkable progress in 
+            image and video synthesis, with classifier-free guidance (CFG) becoming the 
+            standard tool for high-fidelity, controllable generation. However, despite 
+            their practical success, little is known about how guidance interacts with 
+            different stages of the sampling process-especially in the fast, low-step 
+            regimes typical of modern flow-based pipelines. In this work, we uncover 
+            and analyze a fundamental instability: the earliest reverse steps are 
+            acutely sensitive to the guidance scale, owing to a pronounced spike in the 
+            relative strength (RATIO) of conditional to unconditional predictions. 
+            Through rigorous theoretical analysis and empirical validation, we show that 
+            this RATIO spike is intrinsic to the data distribution, independent of the model 
+            architecture, and causes exponential error amplification when paired with strong 
+            guidance. To address this, we propose a simple, theoretically grounded, 
+            RATIO-aware adaptive guidance schedule that automatically dampens the guidance scale 
+            at early steps based on the evolving RATIO, using a closed-form exponential decay. 
+            Our method is lightweight, requires no additional inference overhead, and is 
+            compatible with standard flow frameworks. Experiments across state-of-the-art image 
+            (SD3.5, Lumina) and video (WAN2.1) models demonstrate that our approach enables up 
+            to 3x faster sampling while maintaining or improving generation quality, 
+            robustness, and semantic alignment. Extensive ablation studies further confirm the 
+            generality and stability of our schedule across models, datasets, and hyperparameters. Our findings highlight the critical role of stepwise guidance adaptation in unlocking the full potential of fast flow-based generative models.
+          </p>
+          <b>Keywords: Rectified Flow, Classifier-Free Guidance, Early-Step Instability</b>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Method Overview<br></h2>
+      </div>
+      
+      <div class="columns" style="margin-top: 1.5em;">
+        <div class="column" style="padding-left: 15rem; color: black; font-size: medium;">
+          <h4>Our method is based on the key concept RATIO, defined as the relative strength of conditional to uncondtional predictions:</h4>
+        </div>
+      </div>
+
+      <div class="item" style="margin-top: 1.5em">
+        <center>
+          <img src="static/images/def_ratio.png" alt="MY ALT TEXT" width="900"/>
+        </center>
+      </div>
+
+      <h3 class="subtitle is-6 has-text-centered" style="margin-top: 1.5em; color: gray; font-size: medium;"">
+             Definition of RATIO. 
+      </h3>
+
+      <div class="columns" style="margin-top: 1.5em;">
+        <div class="column" style="padding-left: 15rem; color: black; font-size: medium;">
+          <h4>RAAG provides a dynamic guidance schedule adaptive to RATIO at each step as follows:</h4>
+        </div>
+      </div>
+
+      <div class="item" style="margin-top: 1.5em">
+        <center>
+          <img src="static/images/method.png" alt="MY ALT TEXT" width="400"/>
+        </center>
+      </div>
+
+      <h3 class="subtitle is-6 has-text-centered" style="margin-top: 1.5em; color: gray; font-size: medium;"">
+             A concise illustration of RAAG's procedure.
+      </h3>
+      
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Results<br></h2>
+      </div>
+      
+      <div class="columns is-centered has-text-centered" style="margin-top: 1.5em; margin-bottom: 1.5em; color: black; font-size: medium;">
+        <h3> The original images are depicted in the first (10-step) and second (30-step) row, and the images by RAAG (10-step) are shown in the bottom.</h3>
+      </div>
+      <div id="results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        
+        <center>
+          <img src="static/images/sd35_display.png" style="width: 80%;" alt="MY ALT TEXT"/>
+        </center>
+        
+        <h4 class="subtitle is-6 has-text-centered" style="margin-top: 0.5em; margin-bottom: 1.5em;">
+          Stable Diffusion v3.5.
+        </h4>
+      </div>
+      
+      <div id="results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        
+        <center>
+          <img src="static/images/lumina_display.png" style="width: 80%;" alt="MY ALT TEXT"/>
+        </center>
+        
+        <h4 class="subtitle is-6 has-text-centered" style="margin-top: 0.5em; margin-bottom: 1.5em;">
+          Lumina-Next.
+        </h4>
+      </div>   
+  </div>
+</div>
+</div>
+</section>
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Results<br></h2>
+      </div>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/img_res.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+            These images are generated by EDM based on Stable Diffusion v3.5.
+            Specifically, the first column presents images generated from 8-step 
+            LTC-Accel accelerated from the 12-step original sampling process, 
+            while the second and the third column are generated from 8-step and 
+            12-step original sampling process.
+        </h2>
+      </div>
+      <div class="item">
+        
+        <img src="static/images/video_res.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+            These images are generated by DeepCache based on Stable Diffusion v2.
+            Specifically, the first column presents images generated from the 
+            50-step original sampling process, 
+            while the second and the third column are generated from 50-step 
+            DeepCache and 38-step DeepCache accelerated by LTC-Accel.
+        </h2>
+      </div>
+      <div class="item">
+        
+        <img src="static/images/example3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+            3-step generation on Animated-Diff-Lightning 
+            accelerated by LTC-Accel.
+       </h2>
+     </div>
+     <div class="item">
+      
+      <img src="static/images/example4.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+            These images are generated by Align Your Steps based on Stable Diffusion v1.5.
+            Specifically, the first column presents images generated from the 
+            8-step sampling process accelerated by Align Your Steps and LTC-Accel, 
+            while the second and the third column are generated from 10-step 
+            Align Your Steps and original sampling process.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{zhu2025raag,
+        title={RAAG: Ratio Aware Adaptive Guidance},
+        author={Zhu, Shangwen and Peng, Qianyu and Hu, Yuting and Yang, Zhantao and Zhang, Han and Pu, Zhao and Feng, Ruili and Cheng, Fan},
+        journal={arXiv preprint arXiv:2508.03442},
+        year={2025}
+      }
+    </code></pre>
+  </div>
+</section>
+
+
+<!-- Youtube video -->
+<!--
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!--
+<section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">Another Carousel (11-Step LTC-Accel/Original Video)</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="gif-container">
+            <div class="item item-video1">
+              <img src="static/videos/animation16.gif" alt="Animation 16">
+            </div>
+            <div class="item item-video2">
+              <img src="static/videos/animation11.gif" alt="Animation 11">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+-->
+<!-- End video carousel -->
+
+
+<!-- Paper poster -->
+<!--
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+-->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+<!--
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+-->
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
